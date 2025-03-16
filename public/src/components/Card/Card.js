@@ -1,7 +1,7 @@
 import {createComponent as C, createPortal, useEffect, useRef, useState} from "@react";
 import {li, h3, pre, span, div, button} from "@react/react-dom-element.js";
 import Button from "@components/Column/components/IconButton.js";
-import Modal from "@components/modal/Modal.js";
+import Modal from "@components/Modal/Modal.js";
 import {sendMessage} from "@lib/componentSocket.js";
 
 
