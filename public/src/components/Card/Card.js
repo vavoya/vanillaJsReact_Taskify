@@ -1,9 +1,8 @@
-import {createComponent, createPortal, useEffect, useRef, useState} from "/src/core/react.js";
-const C = createComponent
-import {li, h3, pre, span, div, button} from "/src/core/react-dom-element.js";
-import Button from "/src/components/Column/components/IconButton.js";
-import Modal from "/src/components/modal/Modal.js";
-import {sendMessage} from "/src/lib/componentSocket.js";
+import {createComponent as C, createPortal, useEffect, useRef, useState} from "@react";
+import {li, h3, pre, span, div, button} from "@react/react-dom-element.js";
+import Button from "@components/Column/components/IconButton.js";
+import Modal from "@components/modal/Modal.js";
+import {sendMessage} from "@lib/componentSocket.js";
 
 
 export default function Card({taskify, columnIndex, cardIndex, updateTop, updateMain, updateColumn}) {

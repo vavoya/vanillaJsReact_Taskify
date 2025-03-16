@@ -1,7 +1,5 @@
-import {createComponent} from "/src/core/react.js";
-import {svg, path} from "/src/core/react-dom-element.js";
-
-const C = createComponent
+import {createComponent as C} from "@react";
+import {svg, path} from "@react/react-dom-element.js";
 
 
 export default function Close({width = '12', height = '12', fill = "#A0A3BD"}) {

@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/src/:path*", "destination": "/src/:path*" }
+    { "source": "/public/:path*", "destination": "/:path*" }
   ]
 }

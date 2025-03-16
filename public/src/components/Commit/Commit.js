@@ -1,7 +1,6 @@
-import {createComponent, useEffect, useState, useRef} from "/src/core/react.js";
-const C = createComponent
-import {br, button, h1, h3, header, section, strong, time, div, span} from "/src/core/react-dom-element.js";
-import {closeSocket, openSocket} from "/src/lib/componentSocket.js";
+import {createComponent as C, useEffect, useState, useRef} from "@react";
+import {br, button, h1, h3, header, section, strong, time, div, span} from "@react/react-dom-element.js";
+import {closeSocket, openSocket} from "@lib/componentSocket.js";
 
 
 

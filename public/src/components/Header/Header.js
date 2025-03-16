@@ -1,8 +1,7 @@
-import {createComponent, useState} from "/src/core/react.js";
-const C = createComponent
-import {button, h1, header} from "/src/core/react-dom-element.js";
-import Sort from "/src/components/svg/Sort.js";
-import Commit from "/src/components/Commit/Commit.js";
+import {createComponent as C, useState} from "@react";
+import {button, h1, header} from "@react/react-dom-element.js";
+import Sort from "@components/svg/Sort.js";
+import Commit from "@components/Commit/Commit.js";
 
 
 export default function Header({latest, updateTop}) {

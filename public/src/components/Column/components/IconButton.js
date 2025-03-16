@@ -1,9 +1,8 @@
-import {createComponent, useRef, useState} from "/src/core/react.js";
-const C = createComponent
-import {li, h3, pre, span, div, button} from "/src/core/react-dom-element.js";
-import Close from "/src/components/svg/Close.js";
-import Edit from "/src/components/svg/Edit.js";
-import Plus from "/src/components/svg/Plus.js";
+import {createComponent as C, useRef, useState} from "@react";
+import {li, h3, pre, span, div, button} from "@react/react-dom-element.js";
+import Close from "@components/svg/Close.js";
+import Edit from "@components/svg/Edit.js";
+import Plus from "@components/svg/Plus.js";
 
 
 

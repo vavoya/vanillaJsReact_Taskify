@@ -1,7 +1,6 @@
-import {createComponent, useState} from "/src/core/react.js";
-import {svg, path} from "/src/core/react-dom-element.js";
+import {createComponent as C} from "@react";
+import {svg, path} from "@react/react-dom-element.js";
 
-const C = createComponent
 
 
 export default function Sort({width = '12', height = '12', stroke = '#6E7191'}) {

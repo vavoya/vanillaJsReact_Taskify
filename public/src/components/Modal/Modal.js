@@ -1,9 +1,5 @@
-import {createComponent, useEffect} from "/src/core/react.js";
-import {section, div, h3, button} from "/src/core/react-dom-element.js";
-
-const C = createComponent
-
-
+import {createComponent as C, useEffect} from "@react";
+import {section, div, h3, button} from "@react/react-dom-element.js";
 
 
 export default function Modal({type, onCancel, onAct}){

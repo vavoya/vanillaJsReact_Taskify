@@ -1,8 +1,7 @@
-import {createComponent, useRef, useState} from "/src/core/react.js";
-const C = createComponent
-import {div} from "/src/core/react-dom-element.js";
-import Header from "/src/components/Header/Header.js";
-import Main from "/src/components/Main/Main.js";
+import {createComponent as C, useRef, useState} from "@react";
+import {div} from "@react/react-dom-element.js";
+import Header from "@components/Header/Header.js";
+import Main from "@components/Main/Main.js";
 
 
 export default function App() {

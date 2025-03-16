@@ -4,15 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Run Main.js</title>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "@react": "/public/src/core/react.js",
+                "@react/": "/public/src/core/",
+                "@components/": "/public/src/components/",
+                "@lib/": "/public/src/lib/"
+
+            }
+        }
+    </script>
+
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="/src/components/Header/header.css">
-    <link rel="stylesheet" href="/src/components/Main/main.css">
-    <link rel="stylesheet" href="/src/components/Column/column.css">
-    <link rel="stylesheet" href="/src/components/Card/card.css">
-    <link rel="stylesheet" href="/src/components/Modal/modal.css">
+    <link rel="stylesheet" href="src/components/Header/header.css">
+    <link rel="stylesheet" href="src/components/Main/main.css">
+    <link rel="stylesheet" href="src/components/Column/column.css">
+    <link rel="stylesheet" href="src/components/Card/card.css">
+    <link rel="stylesheet" href="src/components/Modal/modal.css">
 </head>
 <body id="root">
 </body>
-<script type="module" src="/src/index.js"></script>
+<script type="module" src="src/index.js"></script>
 </html>

@@ -1,8 +1,8 @@
-import {useEffect, useState, createComponent, useRef} from "/src/core/react.js";
-import {button, main, ul, div} from "/src/core/react-dom-element.js";
-import Column from "/src/components/Column/Column.js";
-import {sendMessage} from "/src/lib/componentSocket.js";
-const C = createComponent
+import {useEffect, useState, createComponent as C, useRef} from "@react";
+import {button, main, ul, div} from "@react/react-dom-element.js";
+import Column from "@components/Column/Column.js";
+import {sendMessage} from "@lib/componentSocket.js";
+
 
 export default function Main({columnListRef, updateTop}) {
     const [_, update] = useState(Symbol());
